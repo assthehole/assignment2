@@ -1,0 +1,124 @@
+/* headers */
+.indexh1 {
+    border-radius: 10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(4, 4, 87);
+
+    size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weatherh1 {
+  border-radius: 10px;
+  border-style: double;
+  border-width: 5px;
+  border-color: rgb(4, 4, 87);
+
+  size: 30px;
+  font-family: 'Archivo Black', sans-serif;
+  color:black;
+
+  text-align: center;
+  align-items: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+.psih1 {
+  border-radius: 10px;
+  border-style: double;
+  border-width: 5px;
+  border-color: rgb(4, 4, 87);
+
+  size: 30px;
+  font-family: 'Archivo Black', sans-serif;
+  color:black;
+
+  text-align: center;
+  align-items: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* backgrounds */
+.indexbody {
+  background-image: url("indexbackground.gif");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weatherbody {
+  background-image: url("weatherbackground.gif");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.psibody {
+  background-image: url("psibackground.gif");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plannerbody {
+  background-image: url("plannerbackground.gif");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* end of backgrounds */
+
+/* tables */
+.flex-container {table, th, td {
+  border: 1px solid black;
+}
+  
+th {
+  text-align: left;
+}
+  
+table {
+  border-spacing: 5px;
+}
+  
+th, td {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  border-style: double;
+  border-width: 5px;
+  border-color: rgb(55, 52, 56);
+
+}
+/* end of tables */
+
+/* flex containers */
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/* end of flex containers */

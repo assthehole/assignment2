@@ -1,10 +1,11 @@
 # assignment2
 Weatherly Planner
 An application that can showcase the weather and the Pollution Standard Index (PSI) and allow you to schedule your events accordingly. 
-This would be able to tell 
-Essentially, this part is your sales pitch.
+This would be able to tell whether the weather and the environment is safe for travelling out of home or whether there is a necessity to wear a mask or bring an umbrella. This also reduces the inconvenience the users have 
 
 Design Process
+Background: I decided to use blurred skies backgrounds of different colours. Firstly, I wanted it to be blurred because it would be easier to read words and not be distracted by the background. Secondly, I wanted the background to be skies because skies usually depict weather.
+I wanted to have a minimalistic feel of my page because these days many applications are very minimal and straightforward, making it easy for users to use and adapt. This would attract more people to use my application feature as if other people find it easy and efficient to usse, by word of mouth, more people would be attracted to use this application. 
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -21,6 +22,8 @@ Feature 1 - allows users X to achieve Y, by having them fill out Z
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
+I want to implement
+
 Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
