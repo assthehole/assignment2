@@ -26,3 +26,13 @@ var settings = {
       $(".3west").append(y.west);
   
   });
+
+  var settings = {
+    "url": "http://dataservice.accuweather.com/locations/v1/regions?apikey=j2wS7aZGGnGCOwAhgOLrQQ3eQUz0I8BA&language=en-us",
+    "method": "GET",
+    "timeout": 0,
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
