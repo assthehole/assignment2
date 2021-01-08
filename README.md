@@ -1,4 +1,6 @@
 # assignment2
+GITHUB: https://github.com/assthehole/assignment2.git
+GITHUB PAGES: https://assthehole.github.io/assignment2/
 **Weather & PSI Forecast Tracker:**
 An application feature / website that can showcase the weather and the Pollution Standard Index (PSI).
 This would be able to tell whether the weather and the environment is safe for travelling out of home or whether there is a necessity to wear a mask or bring an umbrella.
