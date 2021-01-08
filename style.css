@@ -1,21 +1,4 @@
 /* headers */
-.indexh1 {
-    border-radius: 10px;
-    border-style: double;
-    border-width: 5px;
-    border-color: rgb(4, 4, 87);
-
-    size: 30px;
-    font-family: 'Archivo Black', sans-serif;
-    color: white;
-
-    text-align: center;
-    align-items: center;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .weatherh1 {
   border-radius: 10px;
   border-style: double;
@@ -53,32 +36,32 @@
 }
 
 /* backgrounds */
-.indexbody {
-  background-image: url("indexbackground.gif");
+.menubody {
+  background-image: url("images/menubackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .weatherbody {
-  background-image: url("weatherbackground.gif");
+  background-image: url("images/weatherbackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .psibody {
-  background-image: url("psibackground.gif");
+  background-image: url("images/psibackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .plannerbody {
-  background-image: url("plannerbackground.gif");
+  background-image: url("images/feedbackbackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 /* end of backgrounds */
@@ -122,3 +105,59 @@ th, td {
   font-size: 30px;
 }
 /* end of flex containers */
+
+/* search box and search button */
+.menubody {
+  margin: 0;
+  padding: 0;
+}
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #65cedb;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background: white;
+}
+
+.search-btn {
+  color: #36a7b6;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #30575c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn > i {
+  font-size: 30px;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(129, 123, 123);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 240px;
+
+}

@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
+    <title>Menu</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="normalize.com">
     <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1199302038.js" crossorigin="anonymous"></script>
+    
 </head>
-<body>
-  <div class="row">
-    <div class="col-12">
+<body class="menubody">
 
-    <div class="flex-container">
-        <div>MENU</div>
-        <div>WEATHER FORECAST</div>
-        <div>PSI TRACKER</div>
-        <div>FEEDBACK</div>
+<div class="search-box">
+    <input class="search-txt" type="text" name="" placeholder="SEARCH LOCATION">
+      <a class ="search-btn" href="#">
+      <i class="fas fa-search"></i>    
+    </a>
+</div>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      MENU
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="weather.html">WEATHER FORECAST</a>
+      <a class="dropdown-item" href="psi.html">PSI TRACKER</a>
+      <a class="dropdown-item" href="feedback.html">FEEDBACK</a>
     </div>
-    <h1 class="weatherh1">Weather Forecast</h1>
+  </div>
+
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
