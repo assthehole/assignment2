@@ -42,7 +42,7 @@ _Buttons:_ Users can tap on the buttons in the menu page to be led on to differe
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 
 **_Features Left to Implement:_**
-I want to implement 
+I want to implement a planner feature that I did not have enough time and research to complete. I decided to compromise and just do a weather page because usually people check the weather and the PSI when they are going out.
 
 **Ideas for features:**
 <!-- Technologies Users
