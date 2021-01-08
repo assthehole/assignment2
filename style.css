@@ -40,57 +40,59 @@
   background-image: url("images/menubackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .weatherbody {
   background-image: url("images/weatherbackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .psibody {
   background-image: url("images/psibackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .plannerbody {
   background-image: url("images/feedbackbackground.gif");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 /* end of backgrounds */
 
 /* tables */
-.flex-container {table, th, td {
+/* .flex-container {
+} */
+
+.center, th, td {
   border: 1px solid black;
 }
-  
+
 th {
   text-align: left;
 }
-  
+
 table {
   border-spacing: 5px;
 }
-  
+
 th, td {
   padding: 15px;
-  display: flex;
-  flex-direction: column;
-
-  border-radius: 10px;
-  border-style: double;
-  border-width: 5px;
-  border-color: rgb(55, 52, 56);
-
 }
 /* end of tables */
+
+/* psi tracker  */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* flex containers */
 .flex-container {
@@ -160,4 +162,48 @@ th, td {
   line-height: 40px;
   width: 240px;
 
+}
+
+/* weather page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.location, .temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degree-section span {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.degree-section h2 {
+  font-size: 40px;
 }

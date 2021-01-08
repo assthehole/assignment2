@@ -1,5 +1,5 @@
 # assignment2
-GITHUB: https://github.com/assthehole/assignment2.git
+GITHUB: https://assthehole.github.io/assignment2/
 GITHUB PAGES: https://assthehole.github.io/assignment2/
 **Weather & PSI Forecast Tracker:**
 An application feature / website that can showcase the weather and the Pollution Standard Index (PSI).
