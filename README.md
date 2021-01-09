@@ -22,10 +22,6 @@ The website is for everyone to use especially for those who go out frequently, t
 As someone who has friends who love to go outside and plan gatherings, I notice they don't always come prepared like, sometimes, our gatherings would be interrupted due to a heavy downpour and none of us are prepared.
 
 This website / application feature could be used such that poeple who love to go out to be prepared in advance with as little trouble as possible. 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-<!-- As a user type, I want to have information presented to me as simply as possible.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url. -->
 
 **Features:**
 **_Main Features:_**
@@ -44,50 +40,22 @@ Feature 1 - allows users X to achieve Y, by having them fill out Z
 **_Features Left to Implement:_**
 I want to implement a planner feature that I did not have enough time and research to complete. I decided to compromise and just do a weather page because usually people check the weather and the PSI when they are going out.
 
-**Ideas for features:**
-<!-- Technologies Users
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
-
-**JQuery:**
-<!-- The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as: -->
-
 **Contact form:**
-<!-- Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet. 
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+I included a section for people to add their first name, last name, their email and enter some feedback that can be able to send to me. This way, when people have questions and feedback for me, I can be able to receive them and know how to contact them.
 
 **Credits:**
-accuweather api: 
 menu background: https://www.pinterest.com/pin/26106872831399763/
 feedback background: https://www.pinterest.com/pin/985231157709355/
 weather background: https://www.pinterest.com/pin/68398488079386121/
 psi background: https://www.pinterest.com/pin/659918151638624367/
-
+feedback form: https://www.c-sharpcorner.com/article/creating-a-feedback-form-using-html/
+weather forecast: 
 region list: http://dataservice.accuweather.com/locations/v1/regions
 
 **Content:**
-api key 1: j2wS7aZGGnGCOwAhgOLrQQ3eQUz0I8BA
-GITHUB: https://github.com/assthehole/assignment2.git
+api key 1: NlNBXgbK9A61z5lwBhRocj5M06bg5YaA 
 
-<!-- The text for section Y was copied from the Wikipedia article Z -->
 Media
-<!-- The photos used in this site were obtained from ... -->
+
 **Acknowledgements:**
 I received inspiration from the following links on how to get started and accomplish some of the features I have implemented in this application feature / website. 
-
-
-
-<!-- google weather icons
-use weather icons
-make sure site is responsive and pretty but i think is pretty already :D
-clean up folders
-make sure read me has markdown :)
-fix all these -->
