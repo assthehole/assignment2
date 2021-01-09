@@ -82,7 +82,7 @@ Media
 <!-- The photos used in this site were obtained from ... -->
 **Acknowledgements:**
 I received inspiration from the following links on how to get started and accomplish some of the features I have implemented in this application feature / website. 
-_Search Box:_ https://www.youtube.com/watch?v=v1PeTDrw6OY
+
 
 
 <!-- google weather icons

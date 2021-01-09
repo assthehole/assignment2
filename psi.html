@@ -4,58 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pollution Standard Index (PSI) Tracker</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="psistyle.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="normalize.com">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="preconnect" href="fonts.gstatic.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body class="psibody">
+<body>
   <div class='container'>
-    <div class="navbar">
-    <a target="_blank" href="index.html" class="tags">Menu</a>
-    <a target="_blank" href="weather.html" class="tags">Weather</a>
-    <a target="_blank" href="psi.html" class="tags">PSI</a>
-    <a target="_blank" href="feedback.html" class="tags">Feedback</a>
+    <div class="row">
+      <div class="col-12">
+        <div class="navbar">
+        <a target="_blank" href="index.html" class="tags">Menu</a>
+        <a target="_blank" href="weather.html" class="tags">Weather</a>
+        <a target="_blank" href="psi.html" class="tags">PSI</a>
+        <a target="_blank" href="feedback.html" class="tags">Feedback</a>
+        </div>
+      </div>
     </div>
-</div>
-  <div class="row">
-    <div class="col-12">
 
-    <h1 class="psih1">Pollution Standard Index Tracker</h1>
-    <table class="center">
-      <tr>
-        <th>PSI 24h</th>
-        <th>PSI 3h</th>
-      </tr>
-      <tr>
-        <td class="3national">national: </td>
-        <td class="24national">national: </td>
-      </tr>
-      <tr>
-        <td class="3south">south: </td>
-        <td class="24south">south: </td>
-      </tr>
-      <tr>
-        <td class="3north">north: </td>
-        <td class="24north">north: </td>
-      </tr>
-      <tr>
-        <td class="3east">east: </td>
-        <td class="24east">east: </td>
-      </tr>
-      <tr>
-        <td class="3central">central: </td>
-        <td class="24central">central: </td>
-      </tr>
-      <tr>
-        <td class="3west"> west: </td>
-        <td class="24west"> west: </td>
-      </tr>
-    </table>
-    </div>
-  </div>
+  <h1>PSI Tracker</h1>
+  <table>
+    <tr>
+      <th>PSI 24h</th>
+      <th>PSI 3h</th>
+    </tr>
+    <tr>
+      <td class="3national">national: </td>
+      <td class="24national">national: </td>
+    </tr>
+    <tr>
+      <td class="3south">south: </td>
+      <td class="24south">south: </td>
+    </tr>
+    <tr>
+      <td class="3north">north: </td>
+      <td class="24north">north: </td>
+    </tr>
+    <tr>
+      <td class="3east">east: </td>
+      <td class="24east">east: </td>
+    </tr>
+    <tr>
+      <td class="3central">central: </td>
+      <td class="24central">central: </td>
+    </tr>
+    <tr>
+      <td class="3west"> west: </td>
+      <td class="24west"> west: </td>
+    </tr>
+  </table>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="script.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>

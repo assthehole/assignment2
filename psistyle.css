@@ -1,0 +1,66 @@
+/* headers */
+h1 {
+  border-radius: 10px;
+  border-style: double;
+  border-width: 5px;
+  border-color: rgb(99, 99, 116);
+
+
+  size: 25px;
+  font-family: 'Archivo Black', sans-serif;
+  color:black;
+
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+
+}
+
+/* backgrounds */
+body {
+  background-image: url("image/psibackground.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* tables */
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* flex containers */
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/* end of flex containers */
+
+
