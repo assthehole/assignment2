@@ -52,6 +52,10 @@ feedback form: https://www.c-sharpcorner.com/article/creating-a-feedback-form-us
 weather forecast: 
 region list: http://dataservice.accuweather.com/locations/v1/regions
 
+Inspiration taken from: https://github.com/iamshaunjp/modern-javascript.git
+Dropdown menu: https://stackoverflow.com/questions/17634627/how-to-center-a-css-drop-down-menu/17634713
+
+
 **Content:**
 api key 1: NlNBXgbK9A61z5lwBhRocj5M06bg5YaA 
 
